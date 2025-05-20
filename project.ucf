@@ -1,0 +1,25 @@
+
+NET "CLK"  		LOC = P50;   # 24MHz on-board clock
+NET "RST_N"     LOC = p133;  # active-low USER_PB button
+
+
+NET "key[0]"    LOC = P51;
+NET "key[1]"    LOC = P48;
+NET "key[2]"    LOC = P55;
+NET "key[3]"    LOC = P56;
+NET "key[4]"    LOC = P57;
+NET "key[5]"    LOC = P58;
+NET "key[6]"    LOC = P66;
+NET "key[7]"    LOC = P59;
+
+NET "an[0]"     LOC = P46;
+NET "an[1]"     LOC = P45;
+NET "an[2]"     LOC = P41;
+NET "an[3]"     LOC = P32;
+NET "sevenSegments[0]"   LOC = P47;
+NET "sevenSegments[1]"   LOC = P43;
+NET "sevenSegments[2]"   LOC = P34;
+NET "sevenSegments[3]"   LOC = P40;
+NET "sevenSegments[4]"   LOC = P35;
+NET "sevenSegments[5]"   LOC = P44;
+NET "sevenSegments[6]"   LOC = P30;
